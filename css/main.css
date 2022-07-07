@@ -1,0 +1,150 @@
+body {
+	background-color: #f2e9e2 !important;
+	margin: 0;
+	padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+  padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+.body {
+	border-radius: 20px;
+	background-color: #fff;  
+}
+
+.content {
+	padding: 20px;
+	padding-top: 0;
+}
+
+.img1 {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+  width: 100%;
+
+}
+
+.img2 {
+	width: 0px;
+	height: 0px;
+  
+}
+
+h3 {
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+	font-size: 2.5em;
+  font-family: 'Fraunces', serif;
+}
+
+.div_content {
+  width: 445px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.total_cost {
+	width: 100%;
+	display: grid;
+  grid-template-columns: 2fr 1.5fr;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cost {
+	color: #3c8168;
+	display: inline-block;
+}
+
+.delcost {
+	text-decoration: rgba(0, 0, 0, 0.486) line-through;
+  opacity: .5;	
+  font-weight: bold;
+}
+
+.box {
+	background-color: hsl(158, 36%, 37%);
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 2px;
+  height: 70px;
+}  
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px;
+}
+
+
+@media (min-width: 375px) {
+}
+
+@media (min-width: 1140px) {
+
+.body {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+	width: 960px;
+	height: 700px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);	
+}
+
+	.img1 {
+		width: 0px;
+		height: 0px;
+		position: absolute;
+	}
+
+	.img2 {
+		width: 480px;
+		height: 700px;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+
+	button:hover{
+		background-color: #132e24;
+		cursor:pointer;
+	}
+
+	span {
+		display: block;
+	}
+
+	.content {
+		
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows: 150px 100px 225px 10px 240px;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+  }
+	
+  .box {
+    width: 360px;
+  }
+
+  .div_content {
+    width: 330px;
+  }
+  
+}
