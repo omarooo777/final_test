@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 .page {
@@ -33,24 +34,28 @@ body {
 .img2 {
 	width: 0px;
 	height: 0px;
-  
 }
 
 h3 {
   color: hsl(228, 12%, 48%);
 }
 
+span {
+  display: block;
+}
+
 h1 {
-	font-size: 2.5em;
+	/* font-size: 2.5em; */
   font-family: 'Fraunces', serif;
 }
 
 .div_content {
-  width: 445px;
+  width: 330px;
 }
 
 p {
   font-size: 14px;
+  color: hsl(228, 12%, 48%);
 }
 
 .total_cost {
@@ -81,7 +86,7 @@ p {
 	font-size: 1.5em;
 	font-weight: bold;
 	letter-spacing: 2px;
-  height: 70px;
+  height: 55px;
 }  
 
 button {
@@ -100,8 +105,8 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-	width: 960px;
-	height: 700px;
+	width: 650px;
+	height: 500px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);	
 }
@@ -113,8 +118,8 @@ button {
 	}
 
 	.img2 {
-		width: 480px;
-		height: 700px;
+		width: 325px;
+		height: 500px;
 		border-top-left-radius: 20px;
 		border-bottom-left-radius: 20px;
 	}
@@ -130,21 +135,21 @@ button {
 	}
 
 	.content {
-		
-    margin-left: 40px;
+    /* margin-left: 40px; */
     display: grid;
-    grid-template-rows: 150px 100px 225px 10px 240px;
+    grid-template-rows: 100px 100px 165px 0px 145px;
     align-items: center;
     justify-content: space-around;
     align-content: center;
   }
 	
   .box {
-    width: 360px;
+    width: 262px;
+    height: 55px;
   }
 
   .div_content {
-    width: 330px;
+    width: 245px;
   }
   
 }
